@@ -1,28 +1,51 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./App.css";
-import Login from "./Login";
+import Login from "./components/js/Login";
 import { getTokenFromUrl } from "./spotify";
+import SpotifyWebApi from "spotify-web-api-js";
+import Player from "./components/js/Player";
+import { useDataLayerValue } from "./components/js/DataLayer";
+
+//super object--interacting with our app & spotify
+const spotify = new SpotifyWebApi();
 
 function App() {
-  const [token, setToken] = useState(null);
+  const [{ user, token }, dispatch] = useDataLayerValue();
 
   // run code based on given condition
 
   useEffect(() => {
+    // set token
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;
 
     if (_token) {
-      setToken(_token);
-    }
+      spotify.setAccessToken(_token);
 
-    console.log("token", _token);
-  }, [token]);
+      dispatch({
+        type: "SET_TOKEN",
+        token: _token,
+      });
+
+      // get user details
+      spotify.getMe().then((user) => {
+        dispatch({
+          type: "SET_USER",
+          user: user,
+        });
+      });
+    }
+  }, [user, token, dispatch]);
+
+  // console.log("user", user);
+  // console.log("token", token);
 
   return (
     // conditional rendering
-    <div className="app">{token ? <h1>Logged In</h1> : <Login />}</div>
+    <div className="app">
+      {token ? <Player spotify={spotify} /> : <Login />}
+    </div>
   );
 }
 

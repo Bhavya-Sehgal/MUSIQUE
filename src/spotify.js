@@ -25,7 +25,7 @@ export const getTokenFromUrl = () => {
     }, {});
 };
 
-// console.log(getTokenFromUrl());
+console.log(getTokenFromUrl());
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
