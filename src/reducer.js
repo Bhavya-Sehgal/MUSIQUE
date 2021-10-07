@@ -4,8 +4,8 @@ export const initialState = {
   playing: false,
   items: null,
   // Remove after finished developing
-  // token:
-  //   " BQCcNTyP1NsQS9huTgsCsk3pLODaxH8BfU_CLa2L_p7LKG-QlEiE7ECZpJxzX5dJ8Ndf6p8feQLjahxR2CtGqrfxWK096Fa-BbHqOqjw1wqpAObtL8h5K7njDTD8drgvFfMI7S70edXiIGCLJDdWcNPVkpEPP7r5feXLxhZr-nXgNlSz",
+  token:
+    " BQCcNTyP1NsQS9huTgsCsk3pLODaxH8BfU_CLa2L_p7LKG-QlEiE7ECZpJxzX5dJ8Ndf6p8feQLjahxR2CtGqrfxWK096Fa-BbHqOqjw1wqpAObtL8h5K7njDTD8drgvFfMI7S70edXiIGCLJDdWcNPVkpEPP7r5feXLxhZr-nXgNlSz",
 };
 
 //action: how we manipulate data layer --> type -->[payload]
