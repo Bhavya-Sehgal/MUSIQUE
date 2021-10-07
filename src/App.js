@@ -36,10 +36,19 @@ function App() {
         });
       });
 
+      //get user playlists
       spotify.getUserPlaylists().then((playlists) => {
         dispatch({
           type: "SET_PLAYLISTS",
           playlists: playlists,
+        });
+      });
+
+      //get discover weekly playlist
+      spotify.getPlaylist("6ehdSiG3d2TinBXr1r7ZK0").then((response) => {
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
         });
       });
     }
