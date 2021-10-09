@@ -1,7 +1,7 @@
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://bhavya-sehgal.github.io/MUSIQUE/#/";
+const redirectUri = "http://localhost:3000/";
 const clientId = "8fff83ff78804c4ab477ceb760c12f89";
 
 const scopes = [
@@ -29,7 +29,7 @@ console.log(getTokenFromUrl());
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
-)}&response_type=code&show_dialog=true`;
+)}&response_type=token&show_dialog=true`;
 
 // this token will be generated after authentication
 // show dialog will generate popup prompt
