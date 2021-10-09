@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/musique/static/css/main.6d6227ac.chunk.css",
-    "main.js": "/musique/static/js/main.74ffc316.chunk.js",
-    "main.js.map": "/musique/static/js/main.74ffc316.chunk.js.map",
-    "runtime-main.js": "/musique/static/js/runtime-main.c6bec2fb.js",
-    "runtime-main.js.map": "/musique/static/js/runtime-main.c6bec2fb.js.map",
-    "static/js/2.f20640b6.chunk.js": "/musique/static/js/2.f20640b6.chunk.js",
-    "static/js/2.f20640b6.chunk.js.map": "/musique/static/js/2.f20640b6.chunk.js.map",
-    "index.html": "/musique/index.html",
-    "static/css/main.6d6227ac.chunk.css.map": "/musique/static/css/main.6d6227ac.chunk.css.map",
-    "static/js/2.f20640b6.chunk.js.LICENSE.txt": "/musique/static/js/2.f20640b6.chunk.js.LICENSE.txt"
+    "main.css": "/MUSIQUE/static/css/main.6d6227ac.chunk.css",
+    "main.js": "/MUSIQUE/static/js/main.e34191a4.chunk.js",
+    "main.js.map": "/MUSIQUE/static/js/main.e34191a4.chunk.js.map",
+    "runtime-main.js": "/MUSIQUE/static/js/runtime-main.7a74fb52.js",
+    "runtime-main.js.map": "/MUSIQUE/static/js/runtime-main.7a74fb52.js.map",
+    "static/js/2.f20640b6.chunk.js": "/MUSIQUE/static/js/2.f20640b6.chunk.js",
+    "static/js/2.f20640b6.chunk.js.map": "/MUSIQUE/static/js/2.f20640b6.chunk.js.map",
+    "index.html": "/MUSIQUE/index.html",
+    "static/css/main.6d6227ac.chunk.css.map": "/MUSIQUE/static/css/main.6d6227ac.chunk.css.map",
+    "static/js/2.f20640b6.chunk.js.LICENSE.txt": "/MUSIQUE/static/js/2.f20640b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6bec2fb.js",
+    "static/js/runtime-main.7a74fb52.js",
     "static/js/2.f20640b6.chunk.js",
     "static/css/main.6d6227ac.chunk.css",
-    "static/js/main.74ffc316.chunk.js"
+    "static/js/main.e34191a4.chunk.js"
   ]
 }
