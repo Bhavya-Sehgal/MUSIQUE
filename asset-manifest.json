@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/musique/static/css/main.6d6227ac.chunk.css",
-    "main.js": "/musique/static/js/main.38a32613.chunk.js",
-    "main.js.map": "/musique/static/js/main.38a32613.chunk.js.map",
+    "main.js": "/musique/static/js/main.74ffc316.chunk.js",
+    "main.js.map": "/musique/static/js/main.74ffc316.chunk.js.map",
     "runtime-main.js": "/musique/static/js/runtime-main.c6bec2fb.js",
     "runtime-main.js.map": "/musique/static/js/runtime-main.c6bec2fb.js.map",
-    "static/js/2.1a71b19d.chunk.js": "/musique/static/js/2.1a71b19d.chunk.js",
-    "static/js/2.1a71b19d.chunk.js.map": "/musique/static/js/2.1a71b19d.chunk.js.map",
+    "static/js/2.f20640b6.chunk.js": "/musique/static/js/2.f20640b6.chunk.js",
+    "static/js/2.f20640b6.chunk.js.map": "/musique/static/js/2.f20640b6.chunk.js.map",
     "index.html": "/musique/index.html",
     "static/css/main.6d6227ac.chunk.css.map": "/musique/static/css/main.6d6227ac.chunk.css.map",
-    "static/js/2.1a71b19d.chunk.js.LICENSE.txt": "/musique/static/js/2.1a71b19d.chunk.js.LICENSE.txt"
+    "static/js/2.f20640b6.chunk.js.LICENSE.txt": "/musique/static/js/2.f20640b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c6bec2fb.js",
-    "static/js/2.1a71b19d.chunk.js",
+    "static/js/2.f20640b6.chunk.js",
     "static/css/main.6d6227ac.chunk.css",
-    "static/js/main.38a32613.chunk.js"
+    "static/js/main.74ffc316.chunk.js"
   ]
 }
