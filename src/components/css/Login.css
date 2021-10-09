@@ -6,13 +6,13 @@
 }
 
 .login > img {
-  width: 100%;
+  width: 60%;
 }
 
 .login > a {
   padding: 20px;
   border-radius: 99px;
-  background-color: #1db954;
+  background-color: rgb(71, 86, 221);
   font-weight: 800;
   color: white;
   text-decoration: none;

@@ -5,8 +5,8 @@
   overflow-y: overlay;
   flex: 0.8;
   color: white;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-  background-color: rgb(91, 87, 115);
+  background: linear-gradient(transparent, rgb(20, 17, 17));
+  background-color: rgb(71, 86, 221);
 }
 
 .body::-webkit-scrollbar {
@@ -70,5 +70,5 @@
 }
 
 .body__infoText > p {
-  font-size: 14px;
+  font-size: 17px;
 }
