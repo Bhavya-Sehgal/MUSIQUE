@@ -4,6 +4,8 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 const redirectUri = encodeURIComponent(
   "https://bhavya-sehgal.github.io/MUSIQUE/"
 );
+
+// const redirectUri = encodeURIComponent("http://localhost:3000/");
 const clientId = "8fff83ff78804c4ab477ceb760c12f89";
 
 const scopes = [

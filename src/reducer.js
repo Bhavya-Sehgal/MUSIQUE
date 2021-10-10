@@ -2,7 +2,7 @@ export const initialState = {
   user: null,
   playlists: [],
   spotify: null,
-  discover_weekly: "6ehdSiG3d2TinBXr1r7ZK0",
+  discover_weekly: null,
   top_artists: null,
   playing: false,
   item: null,
@@ -15,7 +15,7 @@ export const initialState = {
 // state: data in data layer
 
 const reducer = (state, action) => {
-  console.log(action);
+  // console.log(action);
 
   switch (action.type) {
     case "SET_USER":

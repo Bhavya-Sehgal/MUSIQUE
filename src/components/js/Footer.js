@@ -29,7 +29,7 @@ function Footer({ spotify }) {
         item: r.item,
       });
     });
-  }, [spotify]);
+  }, [dispatch, spotify]);
 
   const handlePlayPause = () => {
     if (playing) {

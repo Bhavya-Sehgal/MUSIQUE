@@ -5,7 +5,7 @@ export const DataLayerContext = createContext();
 
 //actual layer wraps app component
 // 2 props and children is component wrap inside it
-export const DataLayer = ({ initialState, reducer, children }) => (
+export const DataLayer = ({ reducer, initialState, children }) => (
   <DataLayerContext.Provider value={useReducer(reducer, initialState)}>
     {children}
   </DataLayerContext.Provider>
